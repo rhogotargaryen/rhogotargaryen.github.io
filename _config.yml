@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: function codingBegins(blood, sweat, tears) {
 header-img: img/home-bg.png
 email: dhaller.personal@gmail.com
 copyright_name: rhogotargaryen
 description: > # this means to ignore newlines until "baseurl:"
-  
+  console.log(`Hello  World!`)
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  rhogotargaryen
