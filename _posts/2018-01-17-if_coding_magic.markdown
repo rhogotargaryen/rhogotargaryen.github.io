@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "if (coding != "magic") {"
-date:       2018-01-18 00:06:46 +0000
+date:       2018-01-17 19:06:47 -0500
 permalink:  if_coding_magic
 ---
 
