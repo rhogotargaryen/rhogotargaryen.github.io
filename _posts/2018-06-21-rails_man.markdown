@@ -1,0 +1,17 @@
+---
+layout: post
+title:      "RAILS... MAN..."
+date:       2018-06-21 19:53:16 +0000
+permalink:  rails_man
+---
+
+
+RAILS... MAN... it is a great tool for creating web  apps!  I really enjoy how a lot of our skills/best practices/principles (DRY, seperation of concerns, etc..) all accumulate into this lovely little framework. 
+
+From a creative standpoint it was amazing to see things actually take shape working from models, to controllers, to views and so forth.  The dedicated time I could find it was awesome to see form take shape from my own code.  Piece by piece I very much felt as though I were translating my ideas into code.  
+
+My biggest struggle is motivating myself to finalize my front end UI.  I just simply dont enjoy this part of web design and its hard to be proud of what I come up with. Im hoping in the Javascript sections I can learn more to get motivated!
+
+Derek
+
+
