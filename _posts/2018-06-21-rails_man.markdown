@@ -1,17 +1,21 @@
 ---
 layout: post
-title:      "RAILS... MAN..."
-date:       2018-06-21 19:53:16 +0000
+title:      "POWER OVERWHELMING"
+date:       2018-06-21 15:53:17 -0400
 permalink:  rails_man
 ---
 
 
-RAILS... MAN... it is a great tool for creating web  apps!  I really enjoy how a lot of our skills/best practices/principles (DRY, seperation of concerns, etc..) all accumulate into this lovely little framework. 
+Well that took a while, a long while to be exact, but I have finally got my rails project finished from front to back.
 
-From a creative standpoint it was amazing to see things actually take shape working from models, to controllers, to views and so forth.  The dedicated time I could find it was awesome to see form take shape from my own code.  Piece by piece I very much felt as though I were translating my ideas into code.  
+Rails was a difficult section to conquer.  I think not so much intellectually but motivationally this is when things started to get very "real" .  Once finishing my sinatra project I was very excited to continue with Rails but quickly I became disheartened because it was infact so different from the straightforward literacies of Sinatra.  I had trouble at first realizing what exactly was happening, how the "magic" of rails was actually getting its information.  This was incredibly discouraging at the time as I felt that all of a sudden things were becoming too complex for me and doubted my own abilities.  eventually however, we learn the conveniences of Rails are a godsend rather than curses.  I think things really clicked when I began to look at Rails more modular, like I was reading a manual to a piece of factory machining where I can pick and chose things as I needed.
 
-My biggest struggle is motivating myself to finalize my front end UI.  I just simply dont enjoy this part of web design and its hard to be proud of what I come up with. Im hoping in the Javascript sections I can learn more to get motivated!
+This really helped me when creating my views, ideally I could see my views as a bunch of helper methods encapsulated in hymlt style attribues and/or conditionals based on who or if someone was logged in.   From there we can look into the data neccessary to fulfill thsoe partials/helpers and look/re-evaluate what was in our controllers etc.
 
-Derek
+I think the best thing I learned through this section was the ability to create relatively complex (for us newbies) was that an end product is built upon over time.  There are a lot of features/functionality that can simply be added as you go.  It is intimidating to look at some applications online and really feel like you could contribute or replicate even a 10th of it however after investing lots of time and careful effort things actually begin to take shape.  Slowly I could log in to my app, than i could create objects, have those objects interact in more and more complex ways until finally I was at a decent end point for my project and proud of the product I had produced.
 
+One thing about web development I am not as excited about is front end design.  This is to say I want to stay away from css/js/etc... but that I would rather take direction than rely on my own "artists's eye".  This caused a HUGE amount of motivational stress for me.  I had a functioning app, why did I need to dress it up?  Arent we just going to add a new front end anyway with Jquery?  I looked for literally every excuse not to jump on-board and after a while the cost of procrastinating really began to add up.  My coach was definitely beginning to sense my lack of effort also and I couldnt bare the shame anymore.  It was time. 
 
+I bit the bullet and slowly began to re-learn some css, some flexbox later.  A tweak here, a tweak there. constant page refreshes and sooner than I knew it I was having a good time.  Hours started to fly and before I really expected I had a pretty decent functioning web app that looked as pretty as I would want it at the moment.  I really thank the Flatiron school for giving me the ability to create for the first time in my life.
+
+Hoping to pass and move on to JS soon!
