@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Things learned through JQUERY project"
-date:       2018-08-24 05:45:05 +0000
+date:       2018-08-24 01:45:06 -0400
 permalink:  things_learned_through_jquery_project
 ---
 
