@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      ".fetch("http://then.confusion", {like: "async functioins better"})"
-date:       2019-01-06 22:36:44 +0000
+title:      ".fetch("http://then.confusion", {like: "async functions better"})"
+date:       2019-01-06 17:36:45 -0500
 permalink:  fetch_http_then_confusion_like_async_functioins_better
 ---
 
