@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "test more than 10 char"
+title:      "fetch is hard, then im frustrated, so im done"
 date:       2019-01-06 17:36:45 -0500
 permalink:  fetch_http_then_confusion_like_async_functioins_better
 ---
