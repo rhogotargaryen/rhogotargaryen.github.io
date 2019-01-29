@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "fetch can be confusing, then im frustrated, so im done"
+title:      "fetch can be confusing, it can get frustrating, so im done"
 date:       2019-01-06 17:36:45 -0500
 permalink:  fetch_http_then_confusion_like_async_functioins_better
 ---
