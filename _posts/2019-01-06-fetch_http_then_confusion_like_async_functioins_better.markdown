@@ -1,10 +1,11 @@
 ---
 layout: post
-title:      ".fetch("http://then.confusion", {like: "async functions better"})"
+title:      "test more than 10 char"
 date:       2019-01-06 17:36:45 -0500
 permalink:  fetch_http_then_confusion_like_async_functioins_better
 ---
 
+.fetch("http://then.confusion", {like: "async functions better"})
 
 Async JS really expands our abilities as developers and  allows us to make very frontend appplications that are fast and secure by only "posting/fetching" essential data from a secured server operating on a different domain.
 
