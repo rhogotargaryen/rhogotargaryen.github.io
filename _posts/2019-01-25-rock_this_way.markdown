@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Rock "This" Way"
+title:      "Rock This Way"
 date:       2019-01-25 12:08:51 -0500
 permalink:  rock_this_way
 ---
