@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "POWER OVERWHELMING"
+title:      "Starting to feel it"
 date:       2018-06-21 15:53:17 -0400
 permalink:  rails_man
 ---
