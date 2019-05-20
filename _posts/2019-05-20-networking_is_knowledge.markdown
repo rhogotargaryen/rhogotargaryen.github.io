@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Networking is Knowledge"
-date:       2019-05-20 04:55:11 +0000
+date:       2019-05-20 00:55:12 -0400
 permalink:  networking_is_knowledge
 ---
 
@@ -17,4 +17,10 @@ We went from cutomizing our own url, to launching a GCS project instance, loaded
 
 When the user on their browser enters and submits and uri adress the dns host will use information in that uri to determine which IP adress to send to based on the root domain/subdomains.  It will use this information in reference to a specific "zone" file that an admin can set/configure to root to correct IP address (hopefully) running the right server to process the rest of the uri.  
 
-Before we go into which types of dns requests can be made (more accurately what "records" we can store in the zone file to handle requets) lets talk about what domains/subdomains are.
+Before we go into which types of dns requests can be made (more accurately what "records" we can store in the zone file to handle requets) lets talk about what domains/subdomains.  A domain is the "root" of your uri.  "Example.com"'s domain would be "example.com".  A subdomain would be what proceeds the domain.  "test.example.com" would have a subdomain of "test".  We can set where to map our root domain using the "@" symbol and we can create subdomains as texts pointing to whichever server IP we would like as well.  We can set a domains and subsequent subdomains to the same IP. 
+
+Now different records will illicit different response types by where/how we delcare the associations.  A records (and AAAA records in ip6) are the most traditional DNS routing record.  They map domains and subdomains to an IP adress creating a host association, where a custom domain will host a specified IP running on your server.  These hosts associations are used later in the other types of records.
+
+CNAMES are used almost as "namespaces".  If we wanted to created a new subdomain strcitly for namesake we can use CNAMES to point to a host association rather than an new IP address.  Using our above example once the test.example host was set up we can than use demo.example.com to point to that same host rather than create a new one.  This functionality is used two fold.  In todays web the "www." is no longer not just not required but will mess up how DNS requests are handled (looking for a cname or a subdomain).  In order to compensate we can create a "www." cname to point to the domain (i.e. root not subdomain) host and functionality resumes seamlessly to end user.  Furthermore if we wanted to redirect the user to another user without disrupting the current URI we can use the same cname technique, for example if we could have "redirect_to_other_host_not_shown.example.com" point to a completely different domain host than example.com "not_example_domain.com".
+
+Another type of request is the MX request which is used to facilitate email exchange to domain/subdomain.  Here established A record hosts can be pointed to when referencing our custom domain.  This seperate record recieves a priority level as well as subdomain names.
